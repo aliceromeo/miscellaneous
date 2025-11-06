@@ -1,6 +1,6 @@
 <h1> ScrambleSeq: Generate and analyse scramble RNA or DNA sequences </h1>
 
-<p> **ScrambleSeqAnalyzer** is a Python script designed to generate scrambled DNA or RNA sequences (permutations with the same base content) from an input sequence and evaluate their thermodynamic stability. The script uses the external command-line tool **RNAfold** (part of the ViennaRNA package) [1] to calculate the minimum free energy ($\Delta G$) and the associated secondary structure. The goal is to identify the least stable scrambled sequences (those with the least negative or positive $\Delta G$). </p>
+<p> <b>ScrambleSeq</b> is a Python script designed to generate scrambled DNA or RNA sequences (permutations with the same base content) from an input sequence and evaluate their thermodynamic stability. The script uses the external command-line tool **RNAfold** (part of the ViennaRNA package) [1] to calculate the minimum free energy ($\Delta G$) and the associated secondary structure. The goal is to identify the least stable scrambled sequences (those with the least negative or positive $\Delta G$). </p>
 
 <h3> Packages and libraries </h3>
 
