@@ -23,11 +23,11 @@ python scrambleseq.py [-h] -t TYPE -s SEQUENCE [-n NSCRAMBLES] [-o OUTPUT]
 
 <h3> Example </h3>
 <h4> 500 RNA scrambled sequences from input </h4>
-
-<h3> References </h3>
-<h4> Ronny Lorenz, Stephan H. Bernhart, Christian Höner zu Siederdissen, Hakim Tafer, Christoph Flamm, Peter F. Stadler, and Ivo L. Hofacker. ViennaRNA package 2.0. Algorithms for Molecular Biology, 6(1):26, 2011. doi:10.1186/1748-7188-6-26. </h4>
 Bash
 <code> python scrambleseq.py -t RNA -s "AUGCCAUGCUACGUAGCUAGCUAGCAU" -n 500 </code>
 <h4> 2000 DNA scrambled sequences, output file and parameters specified </h4>
 Bash
 <code> python scrambleseq.py -t DNA -s "ATGCATGCATGCATGCATGCATGC" -n 2000 -p /home/user/miniconda3/envs/vienna/share/ViennaRNA/dna_mathews2004.par -o dna_scrambles.dat </code>
+
+<h3> References </h3>
+<h4> Ronny Lorenz, Stephan H. Bernhart, Christian Höner zu Siederdissen, Hakim Tafer, Christoph Flamm, Peter F. Stadler, and Ivo L. Hofacker. ViennaRNA package 2.0. Algorithms for Molecular Biology, 6(1):26, 2011. doi:10.1186/1748-7188-6-26. </h4>
